@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+form {
+  width: 500px;
+}
+
+#inputi div {
+ float: left;
+ margin-right: 10px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 150px;
+  padding: 5px 0px;
+}
+
+#checkovi div {
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+#area div {
+  float: left;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+}
+
+#dugme {
+  float: left;
+}
+
+.cleaner {
+  clear: both;
+}

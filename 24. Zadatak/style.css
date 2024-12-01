@@ -1,0 +1,20 @@
+.prvi {
+  border-top: 5px double black;
+  border-bottom: 5px double black;
+}
+
+.drugi {
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.treci {
+  border-top: 1px solid black;
+  border-left: 6px solid black;
+}
+
+.cetvrti {
+  border-bottom: 3px dashed black;
+}

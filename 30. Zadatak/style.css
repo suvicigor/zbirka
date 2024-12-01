@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#okvir {
+  background-image: url('img/image.webp');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#blok {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  left: 120px;
+}
+
+#blok h1 {
+  padding-top: 80px;
+}

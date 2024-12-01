@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#okvir {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#okvir div {
+  width: 600px;
+  height: 150px;
+  position: absolute;
+}
+
+.prvi {
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+}
+
+.drugi {
+  top: 100px;
+  left: 30px;
+  border: 2px solid red;
+}
+
+.treci {
+  top: 200px;
+  left: 60px;
+  border: 2px solid orange;
+}

@@ -1,0 +1,19 @@
+p {
+  font-weight: bold;
+}
+
+.prva {
+  list-style: decimal-leading-zero;
+}
+
+.prva li {
+  border-bottom: 1px solid black;
+}
+
+.druga {
+  list-style-type: lower-alpha;
+}
+
+.druga li {
+  border-bottom: 2px dotted black;
+}

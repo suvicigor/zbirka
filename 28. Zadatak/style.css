@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#glavni {
+  width: 1500px;
+  height: 300px;
+  border: 4px solid black;
+  margin: 20px auto;
+}
+
+.blok {
+  float: left;
+  border: 2px solid black;
+  margin: 20px;
+  height: 260px; /* sirina parenta j 300px a imamo 40px ukupno kad spojimo gornju i donju marginu tako da ako mu damo height 260px centriracmo ga vertikalno */
+  width: 456px; /* 1500px sto je sirina parent div-a minus 12px sto je 3 * 2 bordera jer imam 3 elementa od kojih svaki ima i levi i desni border od 2px minus 120px sto je 3 * 2 margina jer imam 3 elementa od kojih svaki ima i levu i desnu marginu od 20px i onda sve to podeljeno sa 3 jer imamo 3 bloka*/
+}
+
+.cleaner {
+  clear: both;
+}

@@ -1,0 +1,11 @@
+h1 {
+  text-decoration: underline;
+  letter-spacing: 5px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+p {
+  text-indent: 10px;
+  line-height: 25px;
+}
